@@ -577,4 +577,9 @@ h4:hover {
   .Sobrenosotros h2:hover {
     text-decoration: underline;
   }
+  .Sobrenosotros .contacto {
+    justify-content: center;
+    width: 200px;
+    margin: 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */
