@@ -51,6 +51,7 @@ section{
     align-self: center;
     justify-self: center;
     font-size: xx-large;
+    padding: 0%;
     
    }
    
@@ -252,8 +253,8 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 150px;
-    margin-top: 150px;
+    margin-bottom: 120px;
+    margin-top: 120px;
     
     div{
         display: flex;
@@ -263,6 +264,7 @@ h1{
         width: 275px;
         height: 300px;
         border-radius: 5px;
+        margin-bottom: 50px;
         border-style: inherit;
         font-size: 0px;
         &:hover{
@@ -441,7 +443,7 @@ text-decoration: underline;
         
         .SN{
             
-            height: 300px;
+            
             filter: opacity(80%);
             font-size: small;
             

@@ -36,6 +36,7 @@ section .SN h1, section .Camperas h1, section .Hoodies h1, section .Remeras h1 {
   align-self: center;
   justify-self: center;
   font-size: xx-large;
+  padding: 0%;
 }
 section .SN img, section .Camperas img, section .Hoodies img, section .Remeras img {
   grid-area: img;
@@ -202,8 +203,8 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 150px;
-  margin-top: 150px;
+  margin-bottom: 120px;
+  margin-top: 120px;
 }
 .b-seccion .Seccion div {
   display: flex;
@@ -213,6 +214,7 @@ h1 {
   width: 275px;
   height: 300px;
   border-radius: 5px;
+  margin-bottom: 50px;
   border-style: inherit;
   font-size: 0px;
 }
@@ -380,7 +382,6 @@ h4:hover {
 /*Version mobile*/
 @media screen and (max-width: 700px) {
   section .SN, section .Remeras, section .Hoodies, section .Camperas {
-    height: 300px;
     filter: opacity(80%);
     font-size: small;
   }
