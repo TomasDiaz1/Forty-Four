@@ -15,6 +15,15 @@ $colores:(
 
 section{
    nav{
+    #filtros{
+        margin-top: 7px;
+    }
+    #comprar{
+        margin-left: 16px;
+    }
+    display: flex;
+    flex-direction: row;
+    align-content: center;
     div{
 
         justify-self: center;
@@ -22,6 +31,8 @@ section{
     img{ 
         
         width: 40px;
+    }
+    
     }
     }
    }
@@ -232,7 +243,7 @@ background-color: map-get($colores, c-grey2);
 
 
 
-}
+
 
 
 
@@ -241,6 +252,9 @@ h1{
     
     text-align: center;
     padding: 50px;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 .b-seccion{
     background-image: url(../Media/fondoseccion.jpg);
@@ -267,6 +281,17 @@ h1{
         margin-bottom: 50px;
         border-style: inherit;
         font-size: 0px;
+        
+            &:hover{
+                button{
+            visibility: visible;
+            }
+            }
+        button{
+            visibility: hidden;
+            
+        }
+        
         &:hover{
             font-size: 20px;
             img{
@@ -291,6 +316,8 @@ h1{
 
 
 /*Sobrenosotros.html*/
+
+    
 .Sobrenosotros{
     background-image: url(../Media/fondoseccion.jpg);
     background-size: cover;
@@ -367,10 +394,7 @@ text-align: center;
 text-decoration: underline;
 }
 }
-.contacto{
-    
-    width: 700px;
-    }
+
     
 
     
